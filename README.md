@@ -6,6 +6,11 @@ A stream protocol handler for JSON-encoded values delimited by CRLF.
 
     npm i json-line-protocol
 
+## Development
+
+    npm i json-line-protocol --devel
+    make test
+
 ## Usage
 
 ````javascript

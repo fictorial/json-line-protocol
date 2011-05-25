@@ -1,9 +1,8 @@
-test:
-	@if [ ! -d node_modules/nodeunit ]; then npm i nodeunit; fi
-	@nodeunit t/test.coffee
-
 compile:
 	coffee -c -o lib src/json-line-protocol.coffee
+
+test:
+	nodeunit t/test.coffee
 
 npm: compile
 	npm publish
