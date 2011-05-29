@@ -1,4 +1,4 @@
-# JsonLineProtocol
+# JsonLineProtocol ![Project Status](http://stillmaintained.com/fictorial/json-line-protocol.png)
 
 A stream protocol handler for JSON-encoded values delimited by CRLF.
 
